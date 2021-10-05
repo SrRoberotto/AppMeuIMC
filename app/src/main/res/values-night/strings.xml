@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lblTitulo">Aplicativo de cálculo de IMC</string>
+    <string name="txtPesoText">Insira seu peso (Kg)</string>
+    <string name="txtAlturaText">Insira sua altura (m)</string>
+</resources>

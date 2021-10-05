@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lblTitulo">Aplicativo de cálculo de IMC</string>
+    <string name="lblSubTitulo">IMCalculator by Roberto</string>
+    <string name="btnCalcularText">Calcular IMC</string>
+    <string name="txtPesoText">Insira seu peso (Kg)</string>
+    <string name="txtAlturaText">Insira sua altura (m)</string>
+    <string name="txtIMCText">Seu IMC</string>
+    <string name="imgIMC">Bonequinho em pé numa balança medindo o seu IMC</string>
+    <string name="PesoIdeal">Peso Ideal:</string>
+    <string name="btnGuardar">Guardar Resultado</string>
+    <string name="btnListar">Listar Resultados Gravados</string>
+    <string name="btnExcluir">Excluir</string>
+</resources>

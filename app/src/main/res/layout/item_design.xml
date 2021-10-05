@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="#ffffff">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardUserList"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            app:cardPreventCornerOverlap="true">
+
+                <ImageView
+                    android:id="@+id/imgUserList"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="false"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/normal" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/txtPesoList"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/cardUserList"
+            android:text="Peso: 000,0 kg"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtDateList"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/txtPesoList"
+            android:text="10/10/2020"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/txtIMCList"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/txtPesoList"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/cardUserList"
+            android:text="IMC: 30.0"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnExcluirList"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/txtDateList"
+            android:layout_marginStart="30dp"
+            android:layout_toEndOf="@+id/txtIMCList"
+            android:text="@string/btnExcluir"
+            android:textAlignment="center"
+            android:textSize="9sp"
+            app:backgroundTint="@color/Progresso"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/btnExcluirList"
+            android:background="?android:attr/listDivider" />
+
+</RelativeLayout>
